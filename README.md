@@ -23,11 +23,11 @@
 
 I specialize in designing and implementing enterprise-grade network and cloud infrastructure with a focus on **security, automation, and zero downtime**. My work spans across:
 ```plaintext
-🌐 Network Architecture    → Multi-site VLAN design, HA firewalls, SD-WAN
+🌐 Network Architecture    → Multi-site VLAN design, HA firewalls, SD-WAN, Tunnel/VPN
 ☁️  Cloud Infrastructure    → Azure, M365, hybrid connectivity, site-to-site VPN
 🔄 Cloud Migrations         → Tenant migrations, on-prem to cloud, zero downtime
 🤖 Automation & DevOps      → PowerShell, Python, Infrastructure as Code
-🛡️  Security Engineering    → Conditional Access, Compliance, Endpoint Protection
+🛡️  Security Engineering    → Conditional Access, Compliance, Endpoint Protection, 
 ```
 
 ---
@@ -38,13 +38,57 @@ I specialize in designing and implementing enterprise-grade network and cloud in
 **Network Engineer**
 
 🎯 **Major Achievements:**
-- **Designed multi-site segmented network** (Vendor/Guest/Admin VLANs) improving security posture by 60%
-- **Deployed WatchGuard HA firewalls** with VLAN interfaces for DHCP/DNS, achieving 99.9% uptime
-- **Built Azure hybrid infrastructure** with site-to-site VPNs and Azure VMs for business applications
+- **Designed multi-site segmented network** (Vendor/Guest/Admin VLANs) improving security posture
+- **Deployed WatchGuard HA firewalls** with VLAN interfaces for DHCP/DNS
+- **Built Azure hybrid infrastructure** with site-to-site VPNs and Azure VMs for business applications, authentication during transition to fully cloud
 - **Reduced troubleshooting time by 40%** through proactive monitoring and automated documentation
-- **Developed Python inventory management app** integrated with Power Platform for real-time reporting
+- **Cross Tenant Migration** Domain migration, Tennant migration with zero down time across all users, mail service and file access.
+- **PBX to Teams** 3CX to Teams migration, call queues, auto-attendent set up.
+**Tech Stack:** Aruba switches, WatchGuard firewalls, Radius Gateway, Azure VMs, Intune, Entra ID, PowerShell, Python, M365
 
-**Tech Stack:** Aruba switches, WatchGuard firewalls, Azure VMs, Intune, Entra ID, RADIUS, PowerShell, Python
+  ## 🚀 Major Projects
+
+### 🔄 **Microsoft 365 Tenant-to-Tenant Migration** (Enterprise-Scale)
+**Challenge:** Migrate 200+ users between M365 tenants with zero downtime during business hours
+
+**Solution Delivered:**
+- ✅ **Zero downtime migration** - Users worked uninterrupted throughout the process
+- ✅ **Cross-tenant mailbox migration** using MRS endpoints with incremental sync
+- ✅ **User & group migration** maintaining all attributes and permissions
+- ✅ **Purview eDiscovery** for PST export/import across tenants (preserved all data)
+- ✅ **SharePoint & OneDrive migration** using Purview and migration APIs
+- ✅ **Teams reconfiguration** including channels, settings, and file migrations
+
+**Key Results:**
+- 📊 200+ users migrated successfully
+- ⏱️ 0 minutes of downtime
+- 📧 0 emails lost during migration
+- 😊 <2% user complaints
+
+**Technologies:** PowerShell, Microsoft Graph API, Exchange Online, Purview, SharePoint Migration tool, Teams
+
+---
+
+### ☁️ **Complete On-Premises to Cloud Migration**
+**Challenge:** Migrate entire infrastructure from on-prem AD to full cloud (Entra ID + Intune)
+
+**Solution Delivered:**
+- ✅ **Active Directory to Entra ID** - Migrated 200+ user accounts with full attribute sync
+- ✅ **200+ devices to Intune** - Zero-touch deployment with Autopilot
+- ✅ **File server to cloud** - 5TB+ migrated to SharePoint & Azure Blob Storage
+- ✅ **PBX to Teams Phone** - 80+ phone lines with auto attendants & call queues
+- ✅ **Domain controller decommissioning** - Safely demoted and removed after validation
+- ✅ **Security hardening** - Conditional Access, Compliance Policies, MFA enforcement
+- ✅ **Configuration policies** - BitLocker, Windows Update, Security Baselines
+
+**Key Results:**
+- 🎯 100% successful migration
+- 🔐 Enhanced security posture (from basic AD to modern zero-trust)
+- 💰 40% reduction in infrastructure costs
+- ⚡ Improved performance and reliability
+- 📈 Better compliance and audit capabilities
+
+**Technologies:** Entra ID, Intune, Autopilot, Azure Blob, SharePoint, Teams Phone, Conditional Access, Purview
 
 ---
 
@@ -89,60 +133,12 @@ I specialize in designing and implementing enterprise-grade network and cloud in
 
 ---
 
-## 🚀 Major Projects (Not Yet in Resume)
-
-### 🔄 **Microsoft 365 Tenant-to-Tenant Migration** (Enterprise-Scale)
-**Challenge:** Migrate 200+ users between M365 tenants with zero downtime during business hours
-
-**Solution Delivered:**
-- ✅ **Zero downtime migration** - Users worked uninterrupted throughout the process
-- ✅ **Cross-tenant mailbox migration** using MRS endpoints with incremental sync
-- ✅ **User & group migration** maintaining all attributes and permissions
-- ✅ **Domain transfer** with automated DNS cutover using PowerShell
-- ✅ **Purview eDiscovery** for PST export/import across tenants (preserved all data)
-- ✅ **SharePoint & OneDrive migration** using Purview and migration APIs
-- ✅ **Teams reconfiguration** including channels, settings, and file migrations
-
-**Key Results:**
-- 📊 200+ users migrated successfully
-- ⏱️ 0 minutes of downtime
-- 📧 0 emails lost during migration
-- 😊 <1% user complaints (minimal friction)
-- 🎯 Completed over 2 weekends (incremental approach)
-
-**Technologies:** PowerShell, Microsoft Graph API, Exchange Online, Purview, SharePoint Migration API, Teams
-
----
-
-### ☁️ **Complete On-Premises to Cloud Migration**
-**Challenge:** Migrate entire infrastructure from on-prem AD to full cloud (Entra ID + Intune)
-
-**Solution Delivered:**
-- ✅ **Active Directory to Entra ID** - Migrated 200+ user accounts with full attribute sync
-- ✅ **500+ devices to Intune** - Zero-touch deployment with Autopilot
-- ✅ **File server to cloud** - 10TB+ migrated to SharePoint & Azure Blob Storage
-- ✅ **PBX to Teams Phone** - 50+ phone lines with auto attendants & call queues
-- ✅ **Domain controller decommissioning** - Safely demoted and removed after validation
-- ✅ **Security hardening** - Conditional Access, Compliance Policies, MFA enforcement
-- ✅ **Configuration policies** - BitLocker, Windows Update, Security Baselines
-
-**Key Results:**
-- 🎯 100% successful migration
-- 🔐 Enhanced security posture (from basic AD to modern zero-trust)
-- 💰 40% reduction in infrastructure costs
-- ⚡ Improved performance and reliability
-- 📈 Better compliance and audit capabilities
-
-**Technologies:** Entra ID, Intune, Autopilot, Azure Blob, SharePoint, Teams Phone, Conditional Access, Purview
-
----
-
 ## 🛠️ Technical Skills & Tools
 
 ### Cloud & Identity
 ```
 Azure (VMs, VNet, Entra ID, Subscriptions, Monitoring)
-Microsoft 365 (Exchange, SharePoint, Teams, OneDrive)
+Microsoft 365 (Exchange, SharePoint, Teams, OneDrive, Purview, Defender)
 Entra ID (formerly Azure AD) - Users, Groups, SSO, Conditional Access
 Intune & Autopilot - Device management, Zero-touch deployment
 Power Platform (Power Automate, Power Apps)
@@ -154,7 +150,7 @@ Cisco Meraki (Switches, Routers, Dashboard)
 HP Aruba (AOS-CX Switches, Access Points, ClearPass)
 WatchGuard Firebox (HA, VLANs, Firewall Policies)
 Fortinet FortiGate (Firewall, VPN, SD-WAN)
-RADIUS Authentication, 802.1X
+RADIUS Gateway,
 VLANs, VPN, Site-to-Site tunnels, SD-WAN
 ```
 
@@ -266,7 +262,6 @@ Macquarie University, Sydney | Graduated July 2021
 Sagarmatha Engineering College, Nepal | Graduated February 2016
 
 ### Currently Learning
-- 🎯 Azure certifications (AZ-104, AZ-700, AZ-500)
 - 🎯 Advanced PowerShell automation
 - 🎯 Terraform & Infrastructure as Code
 - 🎯 Kubernetes & container orchestration
