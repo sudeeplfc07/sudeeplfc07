@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Network Engineer](https://img.shields.io/badge/Network_Engineer-Active-green)
+![Network Engineer](https://img.shields.io/badge/Network_Engineer-Active-success?style=for-the-badge)
 ![Cloud Specialist](https://img.shields.io/badge/M365%2FAzure-Specialist-0078D4?style=for-the-badge)
 ![PowerShell](https://img.shields.io/badge/PowerShell-Automation-5391FE?style=for-the-badge&logo=powershell)
 
