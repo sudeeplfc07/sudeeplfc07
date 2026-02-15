@@ -243,8 +243,6 @@ Sagarmatha Engineering College, Nepal | Graduated February 2016
 
 ### Currently Learning
 - 🎯 Advanced PowerShell automation
-- 🎯 Terraform & Infrastructure as Code
-- 🎯 Kubernetes & container orchestration
 
 ---
 
