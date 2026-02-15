@@ -188,6 +188,23 @@ EVE-NG, GNS3 (Network simulation)
 
 ## 📁 Featured Projects & Repositories
 
+## 🗂️ Featured Projects
+
+### ☁️ Cloud & Migration
+- **[M365 Cross-Tenant Migration](https://github.com/sudeeplfc07/m365-cross-tenant-migration)** - Zero-downtime tenant migration (200+ users)
+- **[PBX to Teams Migration](https://github.com/sudeeplfc07/pbx-to-teams-migration)** - Traditional PBX to Teams Phone (50+ lines)
+- **[On-Prem to Cloud Migration](https://github.com/sudeeplfc07/on-prem-to-cloud-migration)** - Complete infrastructure transformation
+
+### 🌐 Network & Infrastructure  
+- **[Enterprise Network Segmentation](https://github.com/sudeeplfc07/enterprise-network-segmentation)** - VLAN design & security architecture
+- **[Azure Hybrid Infrastructure](https://github.com/sudeeplfc07/azure-hybrid-infrastructure)** - Hybrid cloud with Terraform
+
+### 🔒 Security & Endpoint Management
+- **[Medical Device Security](https://github.com/sudeeplfc07/medical-device-security-compliance)** - HIPAA compliance automation
+- **[Intune Autopilot Deployment](https://github.com/sudeeplfc07/intune-autopilot-deployment)** - Zero-touch provisioning (500+ devices)
+
+📂 **[View All Projects →](https://github.com/sudeeplfc07/projects-documentation)**
+
 ### 🪟 [windows-infra-automation](https://github.com/sudeeplfc07/windows-infra-automation)
 **Production-grade PowerShell automation for Windows endpoint management**
 
@@ -201,43 +218,6 @@ Real-world scripts developed through enterprise deployments:
 **Impact:** 40% reduction in deployment time, 95% elimination of manual tasks
 
 **Tech Stack:** PowerShell, Microsoft Graph API, Intune, Autopilot
-
----
-
-### 🔄 [m365-tenant-migration-toolkit](https://github.com/sudeeplfc07/m365-tenant-migration-toolkit) *(Coming Soon)*
-**Zero-downtime Microsoft 365 tenant migration automation**
-
-Complete toolkit for cross-tenant migrations including:
-- Mailbox migration with incremental sync
-- User and group provisioning
-- Domain transfer automation
-- Purview data migration (PST, SharePoint, OneDrive)
-- Post-migration validation
-
-**Success Rate:** 100% migrations with 0 minutes downtime
-
----
-
-### ☁️ [on-prem-to-cloud-migration](https://github.com/sudeeplfc07/on-prem-to-cloud-migration) *(Coming Soon)*
-**Complete AD to Entra ID transformation toolkit**
-
-Infrastructure migration automation:
-- AD to Entra ID sync and cutover
-- Intune deployment and configuration
-- File server to SharePoint/Azure Blob
-- PBX to Teams Phone migration
-- Security policy implementation
-
----
-
-### 🌐 [network-automation-toolkit](https://github.com/sudeeplfc07/network-automation-toolkit) *(Coming Soon)*
-**Network infrastructure automation and documentation**
-
-Tools for network management:
-- VLAN configuration templates (Aruba, Meraki)
-- Firewall policy documentation (WatchGuard, Fortinet)
-- Network health monitoring scripts
-- Automated backup and documentation
 
 ---
 
