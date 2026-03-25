@@ -9,7 +9,8 @@ I design and deliver complex infrastructure that works—from zero-downtime clou
 ## 🏗️ What I Do
 
 - **Enterprise Network Architecture** - Dual-edge networks, VLAN segmentation, HA firewalls
-- **Cloud Transformations** - On-premises to cloud migrations, AD to Entra ID, zero-touch provisioning
+- **Cloud Transformations** - ☁️ Cloud Transformations
+Led complete on-premises to cloud transformation: migrated Active Directory to Entra ID, deployed zero-touch provisioning via Intune/Autopilot, migrated file servers to SharePoint/Azure, implemented Azure NSGs to extend network segmentation to cloud workloads, configured SSO integrations with SAML/OIDC, and successfully decommissioned domain controllers. Achieved complete cloud adoption with significant cost reduction.
 - **Zero-Downtime Migrations** - M365 tenant-to-tenant migrations with complete data integrity
 - **Modern Communications** - PBX to Teams Phone migrations with auto attendants and call queues
 - **Infrastructure Automation** - PowerShell and Python automation for Autopilot, identity management, endpoint configuration
@@ -33,8 +34,8 @@ I design and deliver complex infrastructure that works—from zero-downtime clou
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
-**Cloud & Identity:** Microsoft 365 · Azure · Entra ID · Intune · Autopilot · Purview  
-**Networking:** WatchGuard · Aruba · Fortinet · Cisco Meraki · VLAN · SD-WAN · RADIUS  
+**Cloud & Identity:** Microsoft 365 · Azure · Entra ID · Intune · Autopilot · Purview · SSO (SAML/OIDC) · Conditional Access · RBAC  
+**Networking:** WatchGuard · Aruba · Fortinet · Cisco Meraki · VLAN · SD-WAN · RADIUS · Azure NSG
 **Automation:** PowerShell · Python · Microsoft Graph API  
 **Compliance:** HIPAA · FDA · TGA · EU MDR
 
