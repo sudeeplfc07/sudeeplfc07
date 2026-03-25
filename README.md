@@ -9,8 +9,7 @@ I design and deliver complex infrastructure that works—from zero-downtime clou
 ## 🏗️ What I Do
 
 - **Enterprise Network Architecture** - Dual-edge networks, VLAN segmentation, HA firewalls
-- **Cloud Transformations** - ☁️ Cloud Transformations
-Led complete on-premises to cloud transformation: migrated Active Directory to Entra ID, deployed zero-touch provisioning via Intune/Autopilot, migrated file servers to SharePoint/Azure, implemented Azure NSGs to extend network segmentation to cloud workloads, configured SSO integrations with SAML/OIDC, and successfully decommissioned domain controllers. Achieved complete cloud adoption with significant cost reduction.
+- **Cloud Transformations** - Led complete on-premises to cloud transformation: migrated Active Directory to Entra ID, deployed zero-touch provisioning via Intune/Autopilot, migrated file servers to SharePoint/Azure, implemented Azure NSGs to extend network segmentation to cloud workloads, configured SSO integrations with SAML/OIDC, and successfully decommissioned domain controllers. Achieved complete cloud adoption with significant cost reduction.
 - **Zero-Downtime Migrations** - M365 tenant-to-tenant migrations with complete data integrity
 - **Modern Communications** - PBX to Teams Phone migrations with auto attendants and call queues
 - **Infrastructure Automation** - PowerShell and Python automation for Autopilot, identity management, endpoint configuration
