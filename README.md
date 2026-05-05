@@ -1,6 +1,6 @@
 # Hi, I'm Sudeep Gyawali 👋
 
-**Network & Cloud Infrastructure Engineer** | Sydney, Australia
+**Cloud Infrastructure & Network Engineer | AI Integration | Claude API | MCP | Building MCOL** | Sydney, Australia
 
 I design and deliver complex infrastructure that works—from zero-downtime cloud migrations to enterprise network architectures that enhance security while maintaining operational flexibility.
 
@@ -39,6 +39,20 @@ I design and deliver complex infrastructure that works—from zero-downtime clou
 **Compliance:** HIPAA · FDA · TGA · EU MDR
 
 ---
+
+## 🤖 AI Integration & Development
+
+Building at the intersection of cloud infrastructure and AI:
+
+- **[MCOL](https://github.com/sudeeplfc07/mcol)** — open-source CLI that 
+  orchestrates Claude, DeepSeek & Qwen with shared conversation memory. 
+  Never lose context to a rate limit again.
+- **XpertNepal** — full-stack civic tech platform built end-to-end with 
+  Claude Code. AI-powered expert matching, multi-role SaaS, production deployed.
+- **Multi-AI Workflow** — global CLI toolchain for zero-interruption 
+  AI-assisted development across any repository.
+
+**AI stack:** Claude API · Claude Code · Groq AI · DeepSeek · Qwen · MCP · Python
 
 ## 📂 Infrastructure Projects
 
